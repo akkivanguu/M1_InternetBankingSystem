@@ -1,9 +1,9 @@
-#include "../inc/bank.h"
+#include "../inc/header.h"
 /**
  * @brief Creates new bank account and fill necessary details.
  *
  */
-info *newacc(info *acc, char *name,int cust_id,int age,char *address,char *citizenship,int phone,char *acc_type,float amt,int month,int day,int year)
+info *createaccount(info *acc, char *name,int cust_id,int age,char *address,char *citizenship,int phone,char *acc_type,float amt,int month,int day,int year)
 {
     info *new_acc;
     new_acc=(info *)malloc(sizeof(info));
@@ -27,7 +27,7 @@ info *newacc(info *acc, char *name,int cust_id,int age,char *address,char *citiz
     }
     else
     {
-        add(acc,name,cust_id,age,address,citizenship,phone,acc_type,amt,month,day,year);
+        addinfo(acc,name,cust_id,age,address,citizenship,phone,acc_type,amt,month,day,year);
         free(new_acc);
         return acc;
     }

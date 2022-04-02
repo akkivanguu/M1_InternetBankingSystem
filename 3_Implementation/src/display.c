@@ -1,4 +1,4 @@
-#include"../inc/bank.h"
+#include"../inc/header.h"
 /**
  * @brief Displays necessary information regarding the bank account by checking correct account number.
  * 
@@ -21,7 +21,7 @@ user display(info *acc)
             printf("Account No: %d\n",p->acc_no);
             printf("Name: %s\n",p->name);
             printf("Balance: %.2f\n",p->amt); 
-            printf("***********\n");
+            printf("#***************************#\n");
             p=p->nt;
         }
         return SUCCESS;

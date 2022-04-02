@@ -1,9 +1,9 @@
-#include"../inc/bank.h"
+#include"../inc/header.h"
 /**
  * @brief Search details using account number.
  * 
  */
-user search(info *acc, int cust_id, info *temp, int *see)
+user searchaccount(info *acc, int cust_id, info *temp, int *see)
 {
     info *p;
     p=acc;

@@ -1,4 +1,4 @@
-#include"../inc/bank.h"
+#include"../inc/header.h"
 /**
  * @brief Deposit is used to deposit amount in the account.
  * 
@@ -8,9 +8,9 @@
  * @param see 
  * @return user 
  */
-user deposit(float amt,info *acc,info *temp,int *see)
+user depositmoney(float amt,info *acc,info *temp,int *see)
 {
-    int i=search(acc,i,temp,see);
+    int i=searchaccount(acc,i,temp,see);
     if (i == -1)
     {
         return SUCCESS;

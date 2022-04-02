@@ -20,13 +20,13 @@ BUILD_DIR=Build
 # All include folders with header files
 INC =-Iinc -Iunity
 # All source code files
-SRC =  src/add.c\
-src/deposit.c\
+SRC = src/addinfo.c\
+src/depositmoney.c\
 src/display.c\
-src/newacc.c\
-src/search.c\
-src/update.c\
-src/withdraw.c\
+src/createaccount.c\
+src/searchaccount.c\
+src/updateinfo.c\
+src/withdrawmoney.c\
 
 # Main source code file
 PROJECT=main.c
@@ -47,18 +47,6 @@ run:
 test:
 	gcc $(SRC) $(TEST) $(UNITY) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-#Call 'make cpp' for static code analysis
-cpp:
-	cppcheck enable=all $(SRC) $(TEST) $(PROJECT)
-# Call 'make coverage' for code coverage
-coverage:
-	gcc $(INC) -fprofile-arcs -ftest-coverage $(SRC) $(TEST) $(UNITY) -o $(call FixPath,$(BUILD_DIR)/$(COVERAGE_PROJ_NAME).$(EXEC))
-	$(call FixPath,$(BUILD_DIR)/$(COVERAGE_PROJ_NAME).$(EXEC))
-	gcov -a $(SRC) $(TEST) $(UNITY)
-# Call 'make memechek for memory leaks
-memcheck:
-	valgrind ./$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
-	
 clean:
 	rm -rf $(BUILD)*.gcda *.gcno *.gcov
 

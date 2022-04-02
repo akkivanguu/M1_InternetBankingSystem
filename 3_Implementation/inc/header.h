@@ -1,5 +1,5 @@
-#ifndef __BANK_H__
-#define __BANK_H__
+#ifndef __header_H__
+#define __header_H__
 
 #include<stdio.h>
 #include<string.h>
@@ -34,17 +34,17 @@ typedef struct info{
 }info;
 
 
-info *newacc(info *,char *,int,int,char *,char *,int,char *,float,int,int,int);
+info *createaccount(info *,char *,int,int,char *,char *,int,char *,float,int,int,int);
 
-user add(info *,char *,int ,int ,char *,char *,int ,char *,float ,int ,int ,int );
+user addinfo(info *,char *,int ,int ,char *,char *,int ,char *,float ,int ,int ,int );
 
-user update(info *,int,int,int);
+user updateinfo(info *,int,int,int);
 
-user deposit(float,info *,info *,int *);
+user depositmoney(float,info *,info *,int *);
 
-user search(info *, int , info *, int *);
+user searchaccount(info *, int , info *, int *);
 
-user withdraw(info *,float,info *,int *);
+user withdrawmoney(info *,float,info *,int *);
 
 user display(info *);
 

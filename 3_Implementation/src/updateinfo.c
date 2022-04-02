@@ -1,9 +1,9 @@
-#include "../inc/bank.h"
+#include "../inc/header.h"
 /**
  * @brief Update account holder's information using existing account number 
  *
  */
-user update(info *acc,int cust_id,int check,int get)
+user updateinfo(info *acc,int cust_id,int check,int get)
 {
     info *p;
     p=acc;

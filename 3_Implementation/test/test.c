@@ -1,4 +1,4 @@
-#include"../inc/bank.h"
+#include"../inc/header.h"
 #include"../unity/unity.h"
 
 info *acc=NULL;
@@ -22,17 +22,17 @@ float amt;
 int month;
 int day;
 int year;
-void test_newacc(void)
+void test_createaccount(void)
 {
     /**
      * @brief Test case for creating new bank account.
      * 
      */
-    acc=newacc(acc,"ABC",123456,21,"xyz","IN",85697562,"S",2000.00,4,9,2021);
+    acc=createaccount(acc,"ABC",123456,21,"xyz","IN",85697562,"S",2000.00,4,9,2021);
     TEST_ASSERT_EQUAL(123456,acc->acc_no);
     TEST_ASSERT_EQUAL(21,acc->age);
 }
-void test_add(void)
+void test_addinfo(void)
 {
     /**
      * @brief Test case for adding information to the bank account.
@@ -47,26 +47,26 @@ void test_add(void)
     phone=256864634;
     amt=50000.00;
     day=3;month=9;year=1999;
-   TEST_ASSERT_EQUAL(SUCCESS,add(acc,name,acc_no,age,address,citizenship,phone,acc_type,amt,day,month,year));
+   TEST_ASSERT_EQUAL(SUCCESS,addinfo(acc,name,acc_no,age,address,citizenship,phone,acc_type,amt,day,month,year));
    
 }
-void test_update(void)
+void test_updateinfo(void)
 {
     /**
      * @brief Test case to update information
      * 
      */
-    TEST_ASSERT_EQUAL(SUCCESS,update(acc,123,2,1));
-    TEST_ASSERT_EQUAL(SUCCESS,update(acc,1234,6,1));
-    TEST_ASSERT_EQUAL(SUCCESS,update(acc,123,7,1));
-    TEST_ASSERT_EQUAL(SUCCESS,update(acc,123,1,1));
+    TEST_ASSERT_EQUAL(SUCCESS,updateinfo(acc,123,2,1));
+    TEST_ASSERT_EQUAL(SUCCESS,updateinfo(acc,1234,6,1));
+    TEST_ASSERT_EQUAL(SUCCESS,updateinfo(acc,123,7,1));
+    TEST_ASSERT_EQUAL(SUCCESS,updateinfo(acc,123,1,1));
 }
 int main(void)
 {
     UNITY_BEGIN();
-    RUN_TEST(test_newacc);
-    RUN_TEST(test_add);
-    RUN_TEST(test_update);
+    RUN_TEST(test_createaccount);
+    RUN_TEST(test_addinfo);
+    RUN_TEST(test_updateinfo);
 
     return UNITY_END();
 }

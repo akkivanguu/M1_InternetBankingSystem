@@ -1,19 +1,12 @@
 /**
- * @file add.c
- * @author your Shriya
- * @brief 
- * @version 0.1
- * @date 2021-04-15
- * 
- * @copyright Copyright (c) 2021
- * 
+ * @file addinfo.c
  */
-#include"../inc/bank.h"
+#include"../inc/header.h"
 /**
  * @brief Add is used add account holder's information by checking whether account number exists or not.
  *  
  */
-user add(info *acc,char *name,int cust_id, int age,char *address,char *citizenship,int phone,char *acc_type,float amt,int month,int day,int year)
+user addinfo(info *acc,char *name,int cust_id, int age,char *address,char *citizenship,int phone,char *acc_type,float amt,int month,int day,int year)
 {
     info *new_acc, *p;
     new_acc = (info *)malloc (sizeof(info));

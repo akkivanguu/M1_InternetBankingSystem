@@ -1,11 +1,11 @@
-#include "./inc/bank.h"
+#include "./inc/header.h"
 #include <stdio.h>
-info *(* fp1)(info *,char *,int,int,char *,char *,int,char *,float,int,int,int)=newacc;
-user (*fp2)(info *,char *,int ,int ,char *,char *,int ,char *,float ,int ,int ,int )=add;
-user (*fp3)(info *,int,int,int)=update;
-user (*fp4)(float,info *,info *,int *)=deposit;
-user (*fp5)(info *, int , info *, int *)=search;
-user (*fp6)(info *,float,info *,int *)=withdraw;
+info *(* fp1)(info *,char *,int,int,char *,char *,int,char *,float,int,int,int)=createaccount;
+user (*fp2)(info *,char *,int ,int ,char *,char *,int ,char *,float ,int ,int ,int )=addinfo;
+user (*fp3)(info *,int,int,int)=updateinfo;
+user (*fp4)(float,info *,info *,int *)=depositmoney;
+user (*fp5)(info *, int , info *, int *)=searchaccount;
+user (*fp6)(info *,float,info *,int *)=withdrawmoney;
 user (*fp7)(info *)=display;
 int main()
 {
@@ -20,7 +20,7 @@ int main()
      * @brief Dashboard of internet banking
      * 
      */
-    printf("*****Bank Management System*****\n");
+    printf("#**********Internet Banking System************#\n");
     printf("1: Create a your new account.\n");
     printf("2: Add information that you want skip the infomation that you not want to add.\n");
     printf("3: Update your acount information\n");
@@ -71,7 +71,7 @@ int main()
             printf("Enter you birth date in formate DD-MM-YYYY: \n");
             scanf("%d-%d-%d",&day,&month,&year);
             printf("**** YOUR ACCOUNT HAS BEEN SUCCESSFULLY CREATED****\n\n");
-            acc=(*fp1)(acc,name,cust_id,age,address,citizenship,phone,acc_type,amt,month,day,year);
+            acc=(*fp1)(acc,name,cust_id,age,address,citizenship,phone,acc_type,amt,day,month,year);
             break;
         }
 
@@ -171,6 +171,9 @@ int main()
                 printf("Citizenship: %s\n",temp.citizenship);
                 printf("Phone number: %d\n",temp.phone);
                 printf("Account type: %s\n",temp.acc_type);
+                printf("D.O.B: %d-%d-%d\n",temp.day,temp.month,temp.year);
+            
+
                 printf("*****ACCOUNT FOUND****");
                 break;
             }
@@ -196,7 +199,12 @@ int main()
                 scanf("%f",&acc->amt);
                 user id = (*fp4)(amt,acc,&temp,&see);
                 printf("Balance: %.2f\n",acc->amt);
-                printf("****Money Deposited Successfully*****");
+                printf("**Money Deposited Successfully*****");
+                break;
+            }
+            else
+            {
+                printf("ACCOUNT NOT FOUND WITH YOUR ENTERED NUMBER. KINDLY CHECK YOUR ACOUUNT NUMBER\n");
                 break;
             }
         }
@@ -217,6 +225,11 @@ int main()
                 scanf("%f",&withdrawalAmount);
                 user id = (*fp6)(acc,withdrawalAmount,acc,&see);
                 printf("****Money Withdrawn Successfully****");
+                break;
+            }
+            else
+            {
+                printf("ACCOUNT NOT FOUND WITH YOUR ENTERED NUMBER. KINDLY CHECK YOUR ACOUUNT NUMBER\n");
                 break;
             }
         }
