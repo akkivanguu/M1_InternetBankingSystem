@@ -2,11 +2,11 @@
 
 ## Badges
 
-#Codiga
+## Codiga
 
-![Quality](https://api.codiga.io/project/32310/score/svg)
+![Quality](https://api.codiga.io/project/32417/score/svg)
 
-![Quality](https://api.codiga.io/project/32310/status/svg)
+![Quality](https://api.codiga.io/project/32417/status/svg)
 
 #codacy
 
