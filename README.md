@@ -14,3 +14,7 @@
 ## Cppcheck Badge:
 
 [![cppcheck-action](https://github.com/akkivanguu/p3---Copy/actions/workflows/c-cppcheck.yml/badge.svg)](https://github.com/akkivanguu/p3---Copy/actions/workflows/c-cppcheck.yml)
+
+## Build Badge:
+
+[![Build CI-Linux](https://github.com/akkivanguu/p3---Copy/actions/workflows/build1.yml/badge.svg)](https://github.com/akkivanguu/p3---Copy/actions/workflows/build1.yml)
