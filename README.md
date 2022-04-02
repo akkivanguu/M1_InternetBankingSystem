@@ -9,5 +9,4 @@
 ![Quality](https://api.codiga.io/project/32417/status/svg)
 
 #codacy
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c879fb51d6834996abfb6524f5a8248f)](https://www.codacy.com/gh/akkivanguu/p3---Copy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akkivanguu/p3---Copy&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ffb7b6ff4f9241d899cc7ef9447df618)](https://www.codacy.com/gh/akkivanguu/p3---Copy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akkivanguu/p3---Copy&amp;utm_campaign=Badge_Grade)
