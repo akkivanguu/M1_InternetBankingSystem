@@ -2,48 +2,36 @@
 
 ## Introduction
 
- - Bank Management System is a application, the project focuses on customer's account services in a bank. This application has several services such as accepting information for record, to deposit and withdraw an amount, searching the information in the record and displaying the balance on the screen. This project is made using structures, function pointers and functions in c programming language.
- - As we know that because of this pandemic situation people are suggested to stay indoors as a result for people to make transactions without going to the bank makes it super easy by using this application.
+ - Internet Banking system is an software application, It focuses on customer's account services in a bank. This project has several services such as creating new account, update information for record, deposit and withdraw an amount from customer's account, searching the account information in the record and displaying the balance of customer's account on the screen. This project is made using  function, pointers,typde function and structures in c programming language.
+ - This project is just like internet banking available by several banks in real life.
  - For this project, we require C Programming, makefile and Unit Testing using Unity.
  - Basic knowledge of structures and functions would be helpful to understand.
 
  ## Features
  
- - Using this application for bank related work such as deposite, withdraw etc.
+ - Using this application for bank related work such as create account, deposit, withdraw etc.
  - User friendly application.
  
 ### Benefits
 
  - Account holder's will be able to perform transaction anytime, anywhere.
- - Reduces paper work.
- - Account holder's can update and add information without going to the bank.
+ - Reduces dependency on bank employees.
 
-## Features and Ageing 
-| Age | Feature |
-| ----- | ----- | 
-| 1770 to 1969  |  The Early Phase: During the Pre Independence period over 600 banks had been registered in the country, but only a few managed to survive.  | 
-| 1969 to 1991 | The Nationalisation Phase: This post Independence phase was the one that led to major developments in the banking sector of India and also in the evolution of the banking sector. | 
-| 1991 - till date | The Liberalisation Phase: Regular monitoring and regulations need to be followed to continue the profits provided by the banking sector.| 
-
-
-
-### References 
- - This work is done with the help of [http://www.cprogrammingnotes.com/question/banking-system.html](http://www.cprogrammingnotes.com/question/banking-system.html) and this is an improvement on it.
 
 ## SWOT Analysis
 ![SWOT ANALYIS](https://github.com/Shriya-265054/Stepin-MiniProject/blob/main/.github/workflows/swot.PNG)
 
  # 4W's and 1'H
 ## Who:  
-This application can be used by people having a valid bank account.
+This application can be used by account holders in a bank.
 ## What:
-Bank Management System is a application, the project focuses on customer's account services in a bank. This application has several services such as accepting information for record, to deposit and withdraw an amount, searching the information in the record and displaying the balance on the screen. This project is made using structures, function pointers and functions in c programming language.
+Internet Banking system is an software application, It focuses on customer's account services in a bank. This project has several services such as creating new account, update information for record, deposit and withdraw an amount from customer's account, searching the account information in the record and displaying the balance of customer's account on the screen. This project is made using  function, pointers,typde function and structures in c programming language.
 ## When:
-The application is made as a part of LTTS Step-in Mini Project work.
+The application can be use  by account holder in bank from any place.
 ## Where:
-It is made using Visual Studio Code IDE on Windows 10.
+It can be use anywhere on Window or Linux OS.
 ## How:
-A simple project which has multi-files in it and the program is made using structures and functions in C Programming Language.
+It is easy to use , just follow instruction shown on dislay and choose option that you want to do.
 
 # Detail requirements
 ## High Level Requirements: 
