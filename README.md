@@ -1,5 +1,8 @@
 ## M1_Internet Banking System
 
+## introduction 
+Internet Banking system is an software application, It focuses on customer's account services in a bank. This project has several services such as creating new account, update information for record, deposit and withdraw an amount from customer's account, searching the account information in the record and displaying the balance of customer's account on the screen. This project is made using function, pointers,typde function and structures in c programming language.
+
 ## Badges
 
 ## Codiga:
