@@ -12,15 +12,26 @@
  - Using this application for bank related work such as create account, deposit, withdraw etc.
  - User friendly application.
  
-### Benefits
+## Benefits
 
  - Account holder's will be able to perform transaction anytime, anywhere.
  - Reduces dependency on bank employees.
 
 
-## SWOT Analysis
-![SWOT ANALYIS](https://github.com/Shriya-265054/Stepin-MiniProject/blob/main/.github/workflows/swot.PNG)
-
+ ## SWOT Analysis
+ 
+### STRENGTHS : 
+-User friendly among customers.
+-High sign-up security
+### OPPORTUNITIES:
+-Customers can use the application anytime & anywhere.
+-Quick response.
+### WEAKNESS:
+-HUge data management is required.
+-Increase the burden of front office staff.
+### Threats:
+-Continuous change in technology.
+-cyber attacks.
  # 4W's and 1'H
 ## Who:  
 This application can be used by account holders in a bank.
