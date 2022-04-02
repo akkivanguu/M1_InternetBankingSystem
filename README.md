@@ -8,5 +8,6 @@
 
 ![Quality](https://api.codiga.io/project/32417/status/svg)
 
-#codacy
+## codacy
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ffb7b6ff4f9241d899cc7ef9447df618)](https://www.codacy.com/gh/akkivanguu/p3---Copy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akkivanguu/p3---Copy&amp;utm_campaign=Badge_Grade)
