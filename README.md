@@ -13,7 +13,7 @@ Internet Banking system is an software application, It focuses on customer's acc
 
 ### codacy:
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ffb7b6ff4f9241d899cc7ef9447df618)](https://www.codacy.com/gh/akkivanguu/p3---Copy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akkivanguu/p3---Copy&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2de48b1f73594e5eac2cdf7806bc32db)](https://www.codacy.com/gh/akkivanguu/p3---Copy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akkivanguu/p3---Copy&amp;utm_campaign=Badge_Grade)
 ### Cppcheck Badge:
 
 [![cppcheck-action](https://github.com/akkivanguu/p3---Copy/actions/workflows/c-cppcheck.yml/badge.svg)](https://github.com/akkivanguu/p3---Copy/actions/workflows/c-cppcheck.yml)
