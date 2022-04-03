@@ -52,6 +52,11 @@ Folder             | Description
 |1.| installation of  doxygen documention| use youtube videos and stackoverflow information 
 |2. | Had challenges in workflows  |  use wiki page and example of workflow in provided github repository by GEA
 
+## Learning Resources
+1.Github
+2.GeeksforGeeks
+3.For makefile - https://github.com/riuandg5/learn-makefile
+4.For problems during coding , iuse stackoverflow platform for solution.
 
 
 
